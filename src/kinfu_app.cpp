@@ -1257,6 +1257,7 @@ main (int argc, char* argv[])
   KinFuApp app (*capture, volume_size, icp, visualization);
   
   //default intrinsics
+  //I'm not quite certain on why this is needed in both files.
   std::vector<float> depthIntrins;
   depthIntrins.push_back(364.5731);
   depthIntrins.push_back(364.5731);
